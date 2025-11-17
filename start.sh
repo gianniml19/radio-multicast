@@ -3,7 +3,7 @@
 # der als Multicast-Stream ins Netz sendet.
 
 # -u  -> Fehler bei Nutzung nicht gesetzter Variablen
-# -o pipefail -> Fehler in Pipelines nicht ignorieren
+# -o pipefail -> Fehler in Pipelines nicht ignoriere
 set -uo pipefail
 
 # Playlist-Pfad (Volume ins Container gemappt)
