@@ -1,0 +1,61 @@
+#EXTM3U
+
+#EXTINF:-1,SRF 1
+https://livestreaming-node-2.srg-ssr.ch/srgssr/regi_zentr/aac/96
+
+#EXTINF:-1,SRF 2
+https://livestreaming-node-2.srg-ssr.ch/srgssr/srf2/mp3/128
+
+#EXTINF:-1,SRF 3
+http://livestreaming-node-4.srg-ssr.ch/srgssr/srf3/mp3/128
+
+#EXTINF:-1,Radio Pilatus
+https://stream.streambase.ch/radiopilatus/mp3-128
+
+#EXTINF:-1,SRF Musikwelle
+http://livestreaming-node-4.srg-ssr.ch/srgssr/srfmw/mp3/128
+
+#EXTINF:-1,Radio Swiss Jazz
+http://livestreaming-node-4.srg-ssr.ch/srgssr/rsj/mp3/128
+
+#EXTINF:-1,Radio Swiss Pop
+http://livestreaming-node-4.srg-ssr.ch/srgssr/rsp/mp3/128
+
+#EXTINF:-1,Radio Swiss Classic
+https://livestreaming-node-2.srg-ssr.ch/srgssr/rsc_de/mp3/128
+
+#EXTINF:-1,Ö1
+https://ors-sn11.ors-shoutcast.at/oe1-q1a
+
+#EXTINF:-1,Ö3
+https://ors-sn03.ors-shoutcast.at/wie-q1a
+
+#EXTINF:-1,Deutschlandfunk
+https://st01.dlf.de/dlf/01/128/mp3/stream.mp3
+
+#EXTINF:-1,Deutschlandfunk Kultur
+https://st02.sslstream.dlf.de/dlf/02/128/mp3/stream.mp3
+
+#EXTINF:-1,SWR1 BW
+https://liveradio.swr.de/sw282p3/swr1bw
+
+#EXTINF:-1,Bayern 1
+https://dispatcher.rndfnk.com/br/br1/obb/mp3/mid
+
+#EXTINF:-1,RSI Rete Uno
+https://livestreaming-node-1.srg-ssr.ch/srgssr/reteuno/mp3/128
+
+#EXTINF:-1,Rai Radio 1
+https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S16355530/Q4zh3NTu28Rx/icecast
+
+#EXTINF:-1,RTL 102.5
+https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_audio.m3u8
+
+#EXTINF:-1,RTS La Première
+https://livestreaming-node-2.srg-ssr.ch/srgssr/la-1ere/mp3/128
+
+#EXTINF:-1,France Inter
+https://icecast.radiofrance.fr/franceinter-midfi.mp3
+
+#EXTINF:-1,France Musique
+https://icecast.radiofrance.fr/francemusique-midfi.mp3

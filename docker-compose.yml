@@ -1,0 +1,32 @@
+version: "3.8"
+
+services:
+  radio-multicast:
+    # Image aus dem lokalen Dockerfile bauen
+    build: .
+    container_name: radio-multicast
+
+    # Host-Netzwerk-Modus:
+    # - Container teilt sich Netzwerk mit dem Host
+    # - nötig, damit Multicast sauber ins LAN kommt
+    # Hinweis: funktioniert so nur auf Linux (hier: Ubuntu Server)
+    network_mode: "host"
+    # Container beim Neustart automatisch wieder starten
+    restart: unless-stopped
+
+    volumes:
+      # Playlist vom Host in den Container unter /data/stations.m3u einbinden (readonly)
+      - ./stations.m3u:/data/stations.m3u:ro
+      # Optional: Ordner mit lokalen Audiodateien mappen
+      # Im Container stehen diese dann unter /data/audio/ zur Verfügung.
+      - ./audio:/data/audio:ro
+
+    environment:
+      # Maximal zu startende Streams aus der Playlist
+      - MAX_STREAMS=20
+      # Basis-Multicast-Adresse -> ergibt 239.10.10.1, .2, .3, ...
+      - BASE_ADDR=239.10.10
+      # Fester UDP-Port für alle Streams
+      - PORT=5000
+      # Time To Live für Multicast-Pakete
+      - TTL=5
